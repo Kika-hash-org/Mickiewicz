@@ -5,11 +5,12 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Mickiewicz</title>
     <link rel="stylesheet" href="{{ url_for('static', filename='styles.css') }}">
+    <link rel="icon" type="image/x-icon" href="{{ url_for('static', filename='remik.jpg') }}">
 </head>
 <body>
     <header>
         <h1 class="animated-box">Witamy na kółku programistycznym</h1>
-        <img src="{{ url_for('static', filename='Mickiewicz.jpeg') }}" alt="Mickiewicz">
+        <img class="img_logo" src="{{ url_for('static', filename='remik.jpg') }}" alt="12 Gen Logo">
     </header>
     <main>
         <h2>Nasz projekt - obszary rozwoju</h2>
@@ -84,6 +85,7 @@
                     </div>
 </main>
 <footer>
+    <img class="img_landscape" src="{{ url_for('static', filename='mikolaj.png') }}" alt="Landscape">
     <p>Szkoła Podstawowa nr 1 im. Adama Mickiewicza w Radlinie ul. K. Makuszyńskiego 17, 44-310 Radlin</p>
 </footer>
 </body>
